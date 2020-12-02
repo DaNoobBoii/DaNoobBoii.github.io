@@ -199,7 +199,7 @@ nav {
 
 .headerBg::before {
     content: '';
-    background: url(GoesToCamping.jpg);
+    background: url(GoesToCamping-min.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -433,6 +433,9 @@ nav {
     font-family: Poppins;
     margin: 0 auto;
     width: 75%;
+    padding: 30px;
+    background: #cfcfcf2a;
+    border-radius: 10px;
 }
 
 .contactCards {
@@ -461,7 +464,8 @@ nav {
 }
 
 .contact li:hover {
-    background: rgba(221, 221, 221, 0.192);
+    background: #000;
+    color: #fff;
 }
 
 .contact li:hover i {
