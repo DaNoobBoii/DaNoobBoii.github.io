@@ -24,7 +24,7 @@ burger.addEventListener('click', function() {
 });
 
 new Typed('#typed',{
-    strings : ["My Name Is Handsome_Hanz","I am Front-End Web Developer","I Can't Use Javascript yet","I Have Speciality In CSS"],
+    strings : ["My Name Is Rafael Williem","I am Front-End Web Developer","I Can't Use Javascript yet","I Have Speciality In CSS"],
     typeSpeed : 90,
     delaySpeed : 1000,
     loop : true
