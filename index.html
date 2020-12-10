@@ -1,135 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="stye.css">
-    <link rel="stylesheet" href="pageTrantition.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="jQuery.js"></script>
-    <title>MyPortofolio | Handsome_Hanz</title>
-</head>
+    <link rel="stylesheet" href="style.css">
 
-<body>
+    <!-- Title Logo -->
+    <link rel="icon" href="img/JS.svg">
+    <!-- Title Logo -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.5.1.min.js">
+    <title>Portofolio | Handsome_Hanz</title>
+</head>
+<body id="top">
     <nav class="navbar">
-        <div class="logo" id="navLink"><a href="#top">Handsome_Hanz</a></div>
-        <ul class="navLinks">
-            <li><a id="navLink" href="#about">About Me</a></li>
-            <li><a id="navLink" href="#">My Skills</a></li>
-            <li><a id="navLink" href="#">Contact Me</a></li>
+        <div class="logo">
+            <a href="#top"><img src="img/GoogleLogo.svg.webp" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" per="About Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z"/></svg></a></li>
+            <li><a href="#skill" per="Skills"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 19h-4v-4h4v4zm6 0h-4v-8h4v8zm6 0h-4v-13h4v13zm6 0h-4v-19h4v19zm1 2h-24v2h24v-2z"/></svg></a></li>
+            <li><a href="#contact" per="Contact Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg></a></li>
         </ul>
-        <div class="burger" onclick="change(this)">
+        <div class="bar" onclick="change(this)">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
     </nav>
-    <div class="header">
-        <div class="headerBg"></div>
-        <div class="headerTitle">
-            <div class="headerTitleAvatar">
-                <img src="discordProfile.webp">
+    <div class="content">
+        <div class="header">
+            <div class="text">
+                <h1>Hello! My Name Is Rafael Williem</h1>
+                <p>Hello! My name is Rafael Williem, I'm in 9th grade, I wasn't good at math, and science. I'm very interested with tech and website development.<br><br>I like computer stuff since I was kid, I like playing video game, and make me more interested to explore deeper into it.<br><br>I can speak Indonesian language, little bit English, and now, I'm learning Japanese language. I want go to Japan, so... I must learn their language.</p>
+                <ul class="header-links">
+                    <li><a href="#about" per="About Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z"/></svg></a></li>
+                    <li><a href="#skill" per="Skills"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 19h-4v-4h4v4zm6 0h-4v-8h4v8zm6 0h-4v-13h4v13zm6 0h-4v-19h4v19zm1 2h-24v2h24v-2z"/></svg></a></li>
+                    <li><a href="#contact" per="Contact Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg></a></li>
+                </ul>
             </div>
-            <h1>Hello, My Name Is <span class="typed" id="typed"></span></h1>
-            <p class="headerTitleDesc">Refresh Page To See It Again</p>
-        </div>
-    </div>
-    <div class="about" id="about">
-        <div class="aboutTitle" data-aos="fade-left" data-aos-duration="1000">
-            <h1>About Me</h1>
-            <div class="aboutTitleDesc" data-aos="fade-left" data-aos-duration="1200">
-                <p>Some Basic Information of My Biodata</p>
+            <div class="img">
+                <img src="img/Semarang-min.jpeg" alt="Foto">
             </div>
         </div>
-        <div data-aos="fade-right" data-aos-duration="1500" class="aboutContent">
-            <i data-aos="fade-right" data-aos-duration="2300" class="fa fa-quote-right bgIconLeft"></i>
-            <p>Hello! My Name Is Handsome_Hanz, it's my discord nickname, I get this nick name from meme that called "Hanz, get ze flammenwerfer" and.. yeah for first time I used that name, I feel like weird cuz, I use meme for nickname reference. Also, I like code something into a website, I'm a front-end website developer, I want to learn back-end website development too, and become : "THE FULLSTACK WEB DEVELOPER". And because that, I want to dive into coding because it takes me from looking at the monitor very often for a long time, so I couldn't explore coding all the time, and most importantly : "IT MAKES MONEY" :)</p>
-        </div>
-    </div>
-    <div class="skills">
-        <div class="skillTitle" data-aos="fade-right" data-aos-duration="1000">
-            <h1>My Skill In Programming Universe</h1>
-            <div class="skillTitleDesc" data-aos="fade-right" data-aos-duration="1200">
-                <p>Show Some Skill That I Learned</p>
+        <div class="about">
+            <div class="text" id="about">
+                <h1>About Me</h1>
+                <h3>Who Am I?</h3>
+                <p>I'm Rafael Williem from Bogor, I am 14 y/o and at 9th grade. I am a frontend developer but I can't use JS but I have a fair amount of knowledge about CSS</p>
+                <h3>What did I do during this pandemic?</h3>
+                <p>Simple, Coding, Games, and most important, I'm in the process of learning Japanese language</p>
+                <h3>Which social media I am most active in?</h3>
+                <p>Discord</p>
+                <h3>What game do I play the most?</h3>
+                <p>Hmm.... Nitro Typer, it's a browser game that train your typing skill, in nitro typer, you can collect money(in-game) and buy some cars to race againts other people(not sponsored by Nitro Typer)</p>
+            </div>
+            <div class="img">
+                <img src="img/GoesToCamping-min.jpg" alt="Foto">
             </div>
         </div>
-        <ul class="skillList">
-            <i data-aos="fade-right" data-aos-duration="2300" class="fa fa-quote-right bgIconLeft"></i>
-            <li>
-                <div class="skillField">
-                    <h2>HTML5</h2>
-                    <span class="bar"><span class="html"></span></span>
-                </div>
-            </li>
-            <li>
-                <div class="skillField">
-                    <h2>CSS3</h2>
-                    <span class="bar"><span class="css"></span></span>
-                </div>
-            </li>
-            <li>
-                <div class="skillField">
-                    <h2>JAVASCRIPT</h2>
-                    <span class="bar"><span class="js"></span></span>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="contact" id="contact">
-        <div class="contactTitle" data-aos="fade-bottom" data-aos-duration="1000">
-            <h1>Contact Me!!!</h1>
-            <div class="contactTitleDesc" data-aos="fade-bottom" data-aos-duration="1200">
-                <p>Here's Some List of My Contact</p>
+        <div class="skill">
+            <div class="text">
+                <h1>My Skills</h1>
+                <h3>Here's some information about my skills</h3>
+            </div>
+            <div class="chart" id="skill">
+                <p>Note: I don't attach JS cuz my JS skill is low as hell</p>
+                <ul class="skill-list">
+                    <li>HTML <ul class="syne-mono-font">
+                        <li class="green">Understand HTML basics. ✓</li>
+                        <li class="green">Smoothly using div, ul, li. ✓</li>
+                        <li class="orange">Less able to use form tag. ✓</li>
+                        <li class="red">Not accustomed to use content, sidebar, article, etc. tags. ✗</li>
+                    </ul></li>
+                </ul>
+                <br>
+                <ul class="skill-list">
+                    <li>CSS3 <ul class="syne-mono-font">
+                        <li class="green">Understand CSS basics. ✓</li>
+                        <li class="green">Smoothly using basics CSS. ✓</li>
+                        <li class="green">Smoothly using transition, transform, z-index, position, ::before, ::after, etc. ✓</li>
+                        <li class="orange">Less able to use ntn-child(), first-child, etc. ✓</li>
+                        <li class="red">Not accustomed to use @keyframe animation. ✗</li>
+                    </ul></li>
+                </ul>
             </div>
         </div>
-        <ul class="contactCard">
-            <li class="email">
-                <div class="contactCardContent">
-                    <div class="cardTitle">
-                        <h1>Email</h1>
-                        <i class="fa fa-envelope"></i>
+        <div class="contact" id="contact">
+            <div class="text">
+                <h1>Contact Person</h1>
+            </div>
+            <div class="cards">
+                <ul class="contactCards">
+                    <li>
+                        <h2>My Facebook</h2>
+                        <i class="fa fab fa-facebook-square"></i>
+                        <p>DaBoii</p>
+                    </li>
+                    <li>
+                        <h2>My Email</h2>
+                        <i class="fa far fa-envelope"></i>
                         <p>webdevboii@gmail.com</p>
-                    </div>
-                </div>
-            </li>
-            <li class="whatsapp">
-                <div class="contactCardContent">
-                    <div class="cardTitle">
-                        <h1>Whatsapp</h1>
-                        <i class="fa fa-whatsapp"></i>
-                        <p>+62 812 9883 4967</p>
-                    </div>
-                </div>
-            </li>
-            <li class="facebook">
-                <div class="contactCardContent">
-                    <div class="cardTitle">
-                        <h1>Facebook</h1>
-                        <i class="fa fa-facebook"></i>
-                        <p>+62 812 9883 4967</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+                    </li>
+                    <li>
+                        <h2>My Instagram</h2>
+                        <i class="fa fab fa-instagram"></i>
+                        <p>DaBoii</p>
+                    </li>
+                    <li>
+                        <h2>My WhatsApp</h2>
+                        <i class="fa fab fa-whatsapp"></i>
+                        <p>+62 8129 8834 967</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy 2020 Made by Rafael Williem</p>
     </div>
 
-    <div class="footer">
-        <p>&copy; 2020 made with <i class="fa fa-heart-o"></i> by Handsome_Hanz</p>
-    </div>
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="app.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
